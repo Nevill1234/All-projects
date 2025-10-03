@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <form class="mainform">
+        <h1>Login</h1>
+        <label for="username" class="username">Username:</label>
+        <input type="text" name="username" id="username">
+
+        <label for="password" class="password">Password:</label>
+        <input type="password" name= "password" id="password">
+        <button type="submit" class="submit" id="btn">Login</button>
+    </form>
+
+    <script>
+        const valid_username = "admin"
+        const valid_password = "123"
+       
+        const btn = document.getElementById("btn");
+        const username = document.getElementById("username");
+        const password = document.getElementById("password");
+
+        btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            if ((username.value == valid_username) && (password.value == valid_password)) {
+              alert("you successfully logged in")
+
+            }
+        })
+    </script>
+</body>
+</html>

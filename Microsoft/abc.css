@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    overflow-x: hidden;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav-layout{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.logo {
+    padding: 30px;
+}
+.nav-menu {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    transition: all 300ms ease-in-out;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 35px;
+    transition: all 200ms ease-in;
+}
+
+.nav-menu a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+
+.head {
+    width: 80vw;
+    height: 800px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+
+.button-icon {
+    display: none;
+}
+
+#Close-button{
+    display: none;
+}
+
+.slideshow-container {
+  display: flex;
+}
+
+.button-icon a {
+    display: inline-block;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.images img{
+    width: 80vw;
+}
+.text-group {
+    z-index: 10;
+    position: relative;
+    bottom: 300px;
+}
+.text-group h1{
+    background-color: red;
+    width: 500px;
+    color: #fff;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.text-group p{
+    background-color: #fff;
+    color: red;
+    width: 350px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+
+.btn {
+    position: relative;
+    bottom: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 80px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+    .nav-menu{
+        flex-direction: column;
+        position:fixed;
+        top: 0;
+        left: 100vw;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        z-index: 30;        
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .button-icon{
+        display: flex;
+    }
+
+    .Close-button{
+        display: flex;
+
+    }
+}

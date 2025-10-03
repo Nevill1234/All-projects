@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(117, 186, 246);
+}
+
+.main-box {
+    max-width: 900px;
+    background-color: rgb(27, 28, 30);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px grey;
+    border: 2px solid black;
+    color:aliceblue;
+}
+
+
+.open-bracket{
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+.divide {
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+.close-bracket{
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+.multiply{
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+.minus{
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+.plus{
+    color: rgb(225, 225, 225);
+    background-color: rgb(41, 47, 50)
+}
+
+
+.form-button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: rgb(18, 20, 19);
+    color: rgb(26, 21, 32);
+}
+
+.form-button input{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: large;
+}
+
+.input{
+    background-color: rgb(26, 21, 32);
+}
+
+
+.equal {
+    background-color: rgb(189, 200, 208);
+    color: rgb(39, 50, 56);
+}
+
+.del{
+    background-color: rgb(64, 76, 81);
+    color: rgb(219, 230, 236);
+
+}
+
+.display-number{
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: right;
+}

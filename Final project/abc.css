@@ -73,6 +73,7 @@
     position: relative;
     bottom: 225px;
 }
+
 .text-group h1{
     background-color: black;
     width: 500px;
@@ -100,7 +101,7 @@
 }
 
 .btn {
-    position: relative;
+    position: absolute;
     bottom: 600px;
     display: flex;
     justify-content: space-between;
@@ -169,7 +170,7 @@
     text-decoration: underline;
 }
 
-.main-container{
+.maincontainer{
     display: flex;
     align-items: center;
     width: 100vw;

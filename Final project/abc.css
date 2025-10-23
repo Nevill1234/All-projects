@@ -186,28 +186,23 @@
   margin-top: 40px;
 }
 
-.links a {
+.links button {
   margin: 0 10px;
   color: #333;
   text-decoration: none;
 }
 
-.links a:hover {
+.links button:hover {
   text-decoration: underline;
 }
 
-.medsos a {
+.medsos button{
   margin: 0 8px;
   color: #333;
   font-size: 20px;
 }
 
-.medsos a:hover {
+.medsos button:hover {
   color: #0078D7;
 }
 
-.footer-copy {
-  font-size: 14px;
-  color: #777;
-  margin-top: 10px;
-}

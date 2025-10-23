@@ -177,6 +177,37 @@
     height: 100vh;
     justify-content: center;
     background-color: beige;
-    font-family: "Montserrat", sans-serif;
-    
+}
+
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.medsos a {
+  margin: 0 8px;
+  color: #333;
+  font-size: 20px;
+}
+
+.medsos a:hover {
+  color: #0078D7;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
 }
